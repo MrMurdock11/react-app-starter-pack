@@ -4,16 +4,40 @@
   "description": "React application starter pack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "webpack serve --mode development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrMurdock11/template-react-app.git"
+    "url": "git+https://github.com/MrMurdock11/react-app-starter-pack.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MrMurdock11/template-react-app/issues"
+    "url": "https://github.com/MrMurdock11/react-app-starter-pack/issues"
   },
-  "homepage": "https://github.com/MrMurdock11/template-react-app#readme"
+  "homepage": "https://github.com/MrMurdock11/react-app-starter-pack#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.13",
+    "@teamsupercell/typings-for-css-modules-loader": "^2.4.0",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.19.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
 }

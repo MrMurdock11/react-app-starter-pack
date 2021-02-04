@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"target": "ES5",
+		"module": "commonjs",
+		"removeComments": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"outDir": "./public"
+	}
+}

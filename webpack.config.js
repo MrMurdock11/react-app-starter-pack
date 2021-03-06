@@ -3,10 +3,9 @@ const { merge } = require("webpack-merge");
 const common = require("./.webpack/webpack.common");
 
 const DEVELOPMENT = "development";
-const PRODUCTION = "production";
 
 module.exports = (_, args) => {
-	if (args.mode === "development") {
+	if (args.mode === DEVELOPMENT) {
 		return merge(common, {
 			devServer: {
 				contentBase: path.join(__dirname, "./dist"),

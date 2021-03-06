@@ -7,6 +7,6 @@
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
-		"outDir": "./public"
+		"outDir": "./dist"
 	}
 }

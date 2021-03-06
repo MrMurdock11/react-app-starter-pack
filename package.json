@@ -4,7 +4,8 @@
   "description": "React application starter pack.",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack serve --mode development"
+    "start:dev": "webpack serve --mode development",
+    "start:prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",

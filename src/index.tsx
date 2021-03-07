@@ -2,6 +2,6 @@ import "./index.gstyle.css";
 
 import React from "react";
 import ReactDOM from "react-dom";
-import { Home } from "./pages/Home";
+import { App } from "./App";
 
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.querySelector("#app"));

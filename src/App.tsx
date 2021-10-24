@@ -1,11 +1,11 @@
 import React from "react";
 import {
 	HashRouter as Router,
-	Link,
 	Route,
 	RouteProps,
 	Switch,
 } from "react-router-dom";
+
 import { Home } from "./pages/Home";
 
 const routes: RouteProps[] = [
@@ -20,8 +20,8 @@ export const App: React.FC = () => {
 	return (
 		<Router hashType="noslash">
 			<Switch>
-				{routes.map(route => (
-					<Route {...route} />
+				{routes.map((route, index) => (
+					<Route key={index} {...route} />
 				))}
 			</Switch>
 		</Router>
